@@ -12,6 +12,7 @@ public class Digits
         int len=num.length();
         int counter=0;
 
+        //Loop to print digits
         while(counter <len)
         {
             System.out.print(num.charAt(counter) + " ");
